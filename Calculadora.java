@@ -20,7 +20,7 @@ public class Calculadora extends Application {
     @Override
     public void start(Stage stage) {
 
-        AnchorPane root = new AnchorPane(); // layout
+        AnchorPane root = new AnchorPane(); 
         root.setStyle("-fx-background-color: darkgray;");
         
         
@@ -35,7 +35,7 @@ public class Calculadora extends Application {
         
         textfield.setFont(Font.font("Raleway", FontWeight.BOLD, 20));
         
-        //cria os botoes
+      
         Button button1 = new Button("0");
         Button button2 = new Button("1");
         Button button3 = new Button("2");
@@ -52,7 +52,7 @@ public class Calculadora extends Application {
         Button button14 = new Button("-");
         Button button15 = new Button("=");
         
-        //define a alturaxlargura
+     
         button1.setPrefHeight(40);
         button1.setPrefWidth(100);
         
@@ -101,7 +101,7 @@ public class Calculadora extends Application {
         button15.setPrefHeight(80);
         button15.setPrefWidth(50);
 
-        //posicao dos botoes na tela
+        
         root.setTopAnchor(button1, 420.0); //cima
         root.setLeftAnchor(button1, 75.0); //lado
         
@@ -228,16 +228,16 @@ public class Calculadora extends Application {
         
         System.out.println(valor);
         
-        //adiciona os botoes em um "grupo"
+       
         root.getChildren().addAll(rectangle, textfield, button1, button2, button3, button4, button5, button6, button7, button8, button9, button10, button11, button12, button13, button14, button15);
       
-        //adciona os elementos na tela e define as config
-        Scene scene = new Scene(root, 650, 600); // Define o fundo como preto
-        //titulo da janela
+       
+        Scene scene = new Scene(root, 650, 600);  
+        
         stage.setTitle("Calculadora Java");
-        //define qual scene
+      
         stage.setScene(scene);
-        //exibe
+      
         stage.show();
     }
 }
