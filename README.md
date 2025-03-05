@@ -1,4 +1,5 @@
 Sobre o projeto:
+
 Calculadora simples desenvolvida utilizando JavaFX que realiza operações matemáticas básicas (soma, subtração, multiplicação e divisão).
 
 Funcionalidades:
@@ -7,6 +8,7 @@ Funcionalidades:
 - Exibição de resultados: Mostra o resultado da operação após pressionar o botão de igual (=).
 
 Como funciona:
+
 A interface gráfica permite que o usuário insira números e escolha operações matemáticas usando botões. Após realizar uma operação, o resultado é exibido na tela.
 
 Tecnologias utilizadas:
